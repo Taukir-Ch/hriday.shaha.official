@@ -64,7 +64,6 @@ h6 {
   color: #373737;
   margin: 0px;
   font-style: normal;
-  text-transform: uppercase;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -78,12 +77,12 @@ h6 a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 28px;
   font-weight: 900;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 28px;
 }
 
 h3 {
@@ -91,7 +90,7 @@ h3 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 h5 {
@@ -223,10 +222,10 @@ label {
   vertical-align: middle;
   white-space: nowrap;
   font-size: 16px;
-  border: solid 3px transparent;
+  border-radius: 7px;
+  border: 1px solid #000;
   text-decoration: inherit;
   font-family: system-ui;
-  text-transform: uppercase;
   border-image-slice: 1;
 }
 
@@ -1691,7 +1690,7 @@ img {
 }
 
 .section-title h2 {
-  font-size: 50px;
+  font-size: 28px;
   text-align: center;
   margin: 65px 0;
 }
@@ -1792,6 +1791,251 @@ hr {
 .responsive-sidebar ul li {
   margin: 0 9px;
 }
+.sticky-header {
+  display: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  display: block;
+  z-index: 1000;
+}
+.sticky .logo {
+  width: 80px;
+}
+
+.main-header {
+  -webkit-box-shadow: 0px 7px 17px -2px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 7px 17px -2px rgba(0, 0, 0, 0.28);
+}
+
+.singel-review-active {
+  padding: 40px 0;
+}
+.singel-review-active h3 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.singel-review-active .sinfel-review-image {
+  display: inline-block;
+  width: 110px;
+}
+
+.our_review {
+  padding: 40px 0;
+}
+.our_review h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.our_review p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.our_review a {
+  text-decoration: underline;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+ul.slick-dots {
+  text-align: center;
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+.slick-dots button {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #ddd;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+  background-color: #869791;
+}
+
+.running_text-slider {
+  margin: 50px 0;
+}
+
+.marquee {
+  overflow: hidden;
+  font-family: "Pridi", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #000;
+}
+
+.marquee__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.marquee__line {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 25px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  -webkit-animation-name: marqueeLine;
+  animation-name: marqueeLine;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+@-webkit-keyframes marqueeLine {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marqueeLine {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+.product-wrapper .singel-product {
+  margin: 30px 0;
+}
+.product-wrapper .singel-product .product-image {
+  position: relative;
+}
+.product-wrapper .singel-product .product-image .prodcut-normal_image {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  visibility: visible;
+}
+.product-wrapper .singel-product .product-image:hover .prodcut-normal_image {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.product-wrapper .singel-product .product-image .prodcut-normal_hover {
+  display: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.product-wrapper .singel-product .product-image:hover .prodcut-normal_hover {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+.product-wrapper .singel-product .product-image .prodcut-best-value-offer {
+  position: absolute;
+  left: -13px;
+  top: -26px;
+  width: 80px;
+}
+.product-wrapper .singel-product .product-image .prodcut-save-offer {
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  background: #fff;
+  color: #000;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 12px;
+}
+.product-wrapper .singel-product h4 {
+  margin: 8px 0;
+}
+.product-wrapper .singel-product p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+.product-wrapper .singel-product .product-review p {
+  line-height: 1;
+  margin-left: 8px;
+  margin: 3px 0 0 10px;
+  font-weight: bold;
+}
+.product-wrapper .singel-product .product-review .product-review-star {
+  width: 20px;
+}
+.product-wrapper .singel-product .prodcut-add-button a.btn {
+  padding: 8px 3px;
+}
+.product-wrapper .singel-product .prodcut-add-button a.btn del {
+  font-size: 12px;
+}
+.product-wrapper .singel-product .prodcut-add-button:hover a.btn {
+  padding: 8px 3px;
+  color: #fff;
+  background: #000;
+}
+
+.product-wrapper {
+  margin: 60px 0;
+}
+
+.prodcut-shop-all {
+  margin-top: 60px;
+}
+.prodcut-shop-all a.btn {
+  padding: 14px 60px;
+  font-size: 18px;
+}
+.prodcut-shop-all:hover a.btn {
+  color: #fff;
+  background: #000;
+}
+
+.difference-area {
+  background: #000;
+  padding: 20px 0;
+}
+.difference-area h2 {
+  color: #fff;
+}
+
 .service-image {
   width: 120px;
   margin-bottom: 30px;

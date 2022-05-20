@@ -30,5 +30,24 @@ setInterval(function() {
   document.getElementById("name").innerHTML = names[rand];
 }, 2000);
 
+$(window).on('scroll', function () {
+	var scroll = $(window).scrollTop();
+	if (scroll < 245) {
+		$(".sticky-header").removeClass("sticky");
+	} else {
+		$(".sticky-header").addClass("sticky");
+	}
+});
+$('.oue-review-right').slick({
+  arrows: false,
+  dots: true,
+  speed: 500,
+  lazyLoad: 'ondemand',
+  infinite: true,
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
   })(jQuery);
   

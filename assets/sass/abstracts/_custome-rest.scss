@@ -58,7 +58,7 @@ h6 {
 	margin: 0px;
 	font-style: normal;
 
-	text-transform: uppercase;
+	
 	font-family: $heading-font-family;
 }
 h1 a,
@@ -180,17 +180,18 @@ label {
 	transition: all 0.3s ease 0s;
 	vertical-align: middle;
 	white-space: nowrap;
+	
 	// box-shadow:$button-gradient;
         font-size: $button_font_size;
 		
+border-radius: 7px;
 
-
-border: solid 3px transparent;
+border: 1px solid #000;
 
 text-decoration: inherit;
 font-family: system-ui;
 
-   text-transform: uppercase;
+
 border-image-slice: 1;
 // border-width: 2px;
 // border-image-source: linear-gradient(to right, #FAFF00 10.86%, #75C154 95.59%);
