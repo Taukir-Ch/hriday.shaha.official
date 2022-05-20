@@ -1,0 +1,185 @@
+.user-wrapper{
+    a{
+        color: #000;
+        
+      h6{
+          font-size: 15.5px;
+          font-weight: 500;
+      }
+    }
+
+}
+.from-btn-bottom{
+    font-size: 16px;
+    text-align: center;
+}
+.form-top-button-wraper{
+    a{
+        .google-loging {
+            img{
+                width: 40px;
+            }
+        }
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        padding: 3px 14px;
+        border-radius: 30px;
+    }
+}
+
+.c-col-3{
+    width: 48px;
+}
+.pl-0{
+    padding-left: 15px;
+}
+.pr-0{
+    padding-right: 15px;
+}
+.c-col-3{
+    width: 30%;
+}
+.c-col-6{
+    width: 40%;
+}
+.form-group{
+    label{
+        margin-bottom: 4px;
+        font-size: 16px;
+    }
+    input{
+        margin-bottom: 10px;
+    }
+    input:focus{
+        box-shadow: none;
+        outline: none;
+    }
+}
+.form-check .form-check-input{
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.forget-speaching{
+    margin: 5px 0 20px 0;
+}
+.form-check-input:checked {
+    background-color: #5BE71E;
+    border-color: #5BE71E;
+}
+.form-check-input.checkbox:focus{
+    
+    box-shadow :none;
+
+}
+.forget{
+  a{
+    color: #5BE71E;
+    font-size: 14px;
+  }
+}
+.from-bottom-area{
+    padding: 15px 0;
+    span{
+        color: #5BE71E;
+    }
+}
+
+
+  
+  .radious-btn {
+      background-image: linear-gradient(to right, #FAFF00 10.86%, #75C154 95.59%);
+      border-radius: 40px;
+    box-sizing: border-box;
+      color: #00a84f;
+      display: block;
+      box-shadow: 0px 0px 14px 1px #42ff00;
+      height: 45px;
+      letter-spacing: 1px;
+      margin: 0 auto;
+      padding: 2.5px;
+      position: relative;
+    text-decoration: none;
+      text-transform: uppercase;
+    font-size: 15px;
+      z-index: 2;
+  }
+  
+  .radious-btn:hover {
+      color: #fff;
+  }
+  
+  .radious-btn span {
+      align-items: center;
+      background: #fff;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      transition: background .5s ease;
+      width: 100%;
+  }
+  
+  .radious-btn:hover span {
+      background: transparent;
+  }
+
+  .check-box-font{
+      font-size: 14px;
+  }
+
+
+  .title-of-the-page{
+      width: 100%;
+      height: 100vh;
+      h1{
+        color: #fff;
+      }
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 11% 100%);
+      background: red;
+    position: relative;
+    &::before{
+        position: absolute;
+        width: 100%;
+        content: '';
+        height: 100%;
+    }
+  }
+.gas-border{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+ box-shadow: 0px 0px 14px 1px #a4f387;
+ border-radius: 18px;
+ padding: 0 23px;
+ padding-bottom: 25px;
+}
+section.login-regitation-gas_wrapper {
+    height: 100vh;
+}
+.gas-btn-group{
+    margin: 0  20px 10px 0 ;
+    a.btn{
+        padding:6px 40px ;
+        box-shadow: 0px 0px 14px 1px #a4f387;
+    }
+    a.btn:hover{
+        color: #000;
+    }
+}
+.gas_o_lin{
+    margin:0 8px ;
+}
+.from-bottom-partner{
+    margin: 10px 0;
+    a{
+        padding: 4px;
+        .google-loging img {
+            width: 29px;
+        }
+    }
+}
+.fb_bg{
+background: #1877F2;
+color: #fff;}
+.linkidin_bg{
+    background: #0A66C2;
+    color: #fff;
+}

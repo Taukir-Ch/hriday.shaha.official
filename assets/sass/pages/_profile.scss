@@ -1,0 +1,72 @@
+section.profile-details-wrapper {
+  margin-top: -111px;
+margin-bottom: 80px;
+
+.team-member {
+  width: 30%;
+  display: inline-block;
+}
+
+.team-member-content{
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 25px;
+  h3{
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .singel-team-content{
+    display: inline-block;
+    h4{
+      font-size: 18px;
+      margin: 20px 0;
+
+    }
+    p{
+
+    }
+  }
+}
+.magrin-top-profile{
+  margin-top: 150px;
+}
+.membership{
+margin-left: 20px;
+height: 300px;
+border: 1px solid #000;
+border: 1px solid #000000;
+border-radius: 100px 0px;
+text-align: center;
+p{
+  margin: 5px 0 8px 0;
+  color: rgba(0, 0, 0, 0.71);
+}
+.member-price-area
+{
+  text-align: center;
+  color: #fff;
+  line-height: 130px;
+  width: 160px;
+  height: 130px;
+  
+  background: rgba(37, 91, 247, 0.65);
+border-radius: 100px 0px;
+}
+}
+.profile-btn-group{
+  margin-top: 20px;
+  @include breakpoint(xsmall){
+    margin-top: 10px
+  }
+  
+  @include breakpoint(medium){
+    margin-top: 10px
+  }
+  a.btn{
+    margin: 0 5px;
+    color: #000000;
+    font-weight: 400;
+  }
+}
+}

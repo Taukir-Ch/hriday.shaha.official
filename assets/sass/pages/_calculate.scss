@@ -1,0 +1,101 @@
+.calculate_page_width{
+  height: 610px;
+  background-blend-mode: overlay;
+  @include breakpoint(xsmall){
+    height: 510px;
+    background-blend-mode: overlay;
+  }
+  @include breakpoint(medium){
+    height: 580px;
+    background-blend-mode: overlay;
+  }
+  .site-title{
+    h1{
+      color: #fff;
+      @include breakpoint(xsmall){
+       font-size: 35px;
+      }
+      @include breakpoint(medium){
+        font-size: 55px;
+      }
+    }
+  }
+ 
+}
+
+thead.thead-dark {
+  background: black;
+  color: #fff;
+}
+.sthead-dark{
+  background: #dddd;
+}
+button.accordion-button {
+  background: #6e8ce3;
+  color: #fff;
+  h3{
+    color: #000;
+  }
+}
+
+button.accordion-button.collapsed{
+  h3{
+    color: #fff;
+  
+  }
+}
+.form-check{
+  padding-left: 0;
+}
+
+#accordionExample{
+  margin-top: 40px;
+}
+
+.subBarschart-3 {
+  font-size: 21px !important;
+}
+
+
+// new -added 
+
+$glass: rgba(255, 255, 255, 0.2);
+$glass-icon: rgba(255, 255, 255, 0.3);
+
+$option: #ddd;
+
+
+
+/* <select> styles */
+select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+
+  height: 2.5em;
+  padding: 0 4em 0 1em;
+  background: url('/assets/images/down_icon.svg')
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, $glass-icon 3em, $glass 3em);
+  color: #320a28;
+
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* <option> colors */
+  option {
+    color: inherit;
+    background-color: $option;
+  }
+  /* Remove focus outline */
+  &:focus {
+    outline: none;
+  }
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
+  }
+}

@@ -1,0 +1,354 @@
+.service-image{
+    width: 120px;
+    margin-bottom: 30px;
+ 
+}
+.singel-service-wrapper{
+    text-align: center;
+    margin: 20px 0;
+    @include breakpoint(xsmall){
+   
+    }
+    
+    @include breakpoint(medium){
+       
+    }
+    @include breakpoint(xlarge){
+        margin: 20px 0px;
+    }
+    p{
+        font-size: 22px;
+        line-height: 1.5;
+    }
+}
+.singel-gas-item{
+  
+    position: relative;
+    text-align: center;
+    margin: 30px 0;
+    @include breakpoint(small){
+    }
+    @include breakpoint(medium){
+        height: 435px;
+    }
+    
+}
+.singel-gasa-content{
+    padding-top: 180px;
+    margin-right: 27px;
+    @include breakpoint(small){
+        padding-top: 350px;
+    }
+    @include breakpoint(medium){
+        padding-top: 120px;
+    }
+
+    @include breakpoint(xlarge){
+        padding-top: 91px;
+    }
+    @include breakpoint(xxlarge){
+        padding-top: 120px;
+    }
+    h3{
+        font-size: 35px;
+      sub{
+        font-size: 20px;
+      }
+    }
+    p{
+        margin-top: 10px;
+        @include breakpoint(small){
+            margin-top: 40px;
+        }
+        @include breakpoint(medium){
+            margin-top: 10px;
+        }
+    }
+    ul{
+       
+        @include breakpoint(small){
+            margin-top: 40px;
+        }
+        @include breakpoint(medium){
+            margin-top: 0px;
+        }
+        @include breakpoint(xxlarge){
+            margin-top: 20px;
+        }
+        li{
+            margin: 2px 0;
+            display: block;
+            img{
+                width: 15px;
+                margin-right: 5px;
+
+            }
+        }
+    }
+    a.btn{
+        padding: 18px 30px;
+        border-radius: 30px;
+        margin-top: 30px;
+        border:none ;
+        font-weight: 600;
+        color: #000000;
+        @include breakpoint(xlarge){
+            padding: 14px 22px;
+        }
+        @include breakpoint(xxlarge){
+            padding: 18px 30px;
+        }
+    }
+}
+.singel-gas-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+}
+.singel-gas-pakage {
+    width: 157px;
+    height: 99px;
+    
+    border-radius: 86px 0px 100px;
+    position: absolute;
+    top: 0;
+    
+    left: 22px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    @include breakpoint(xsmall){
+        left: 25.2px;
+        top: 1px;
+    }
+    @include breakpoint(small){
+        left: 7%;
+        top: 1px;
+        width: 239px;
+        height: 242px;
+        border-radius: 140px 0px 115px;
+    }
+    @include breakpoint(medium){
+    
+            left: 25.2px;
+            top: 1px;
+            width: 183px;
+            height: 91px;
+            border-radius: 98px 0 100px;
+        
+    }
+    @include breakpoint(large){
+    
+       
+            left: 19.2px;
+            top: 1px;
+            width: 181px;
+            height: 91px;
+            border-radius: 83px 0 91px;
+        
+        
+    }
+    @include breakpoint(xlarge){
+        width: 135px;
+        height: 79px;
+        border-radius: 93px 0 100px;
+        left: 18px;
+    }
+    @include breakpoint(xxlarge){
+        width: 157px;
+        height: 99px;
+        border-radius: 86px 0px 100px;
+        left: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.yellow{
+    background: rgba(250, 255, 0, 0.67);
+}
+.green{
+background: rgba(23, 201, 30, 0.45);
+}
+.blue{
+    background: rgba(48, 23, 201, 0.45);
+}
+.nvai-blue{
+    background: rgba(37, 91, 247, 0.65);
+}
+
+
+.review-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    img{
+        width: 90px;
+    }
+}
+.singel-review{
+    text-align: center;
+    margin:30px 0 ;
+    p{
+        color: #fff;
+        font-weight: 500;
+    }
+    h5{
+ font-weight: 700;
+ color: #fff;
+ font-size: 18px;
+ margin: 10px 0;
+    }
+    img{
+        width: 150px;
+    }
+}
+.review-wrapper{
+    padding: 50px 0;
+}
+.state-wrapper{
+    padding: 50px 0;
+
+    background: #255BF7;
+    .section-title{
+       h2{
+        color: #fff;
+       }
+    }
+}
+
+.price-from-wrapper{
+    label{
+        margin: 5px 0;
+    }
+    .custom-select{
+        margin-top: 35px;
+        padding: 6px 9px;
+        select{
+
+        }
+    }
+}
+.singel-use-from-group{
+    margin: 18px 0;
+}
+.price-details-wrapper{
+    display: inline-block;
+    padding: 30px 20px 30px 10px ;
+    border: 1px solid #000;
+    border-radius: 40px;
+
+    p{
+        margin-left: 20px;
+        margin-top: 20px;
+        font-weight: 900;
+    }
+    h4{
+        font-weight: 400;
+        margin-left: 20px;
+        font-size: 19px;
+        margin-bottom: 20px;
+        span{
+            font-weight: 900;
+        }
+    }
+    img{
+        width: 180px;
+    }
+}
+.box-with-liter-count{
+    position: relative;
+    display: inline-block;
+
+    span{
+        position: absolute;
+        z-index: 10;
+        left: 35%;
+        top: 53%;
+        color: #AA0101;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+.calculate-usage{
+    margin-bottom: 80px;
+    a.btn{
+        padding: $button-padding-02;
+        color: $black;
+        @include breakpoint(xsmall){
+            margin: 20px 0;
+        }
+        
+        @include breakpoint(medium){
+            margin: 0 0;
+        }
+      
+    }
+}
+
+#whatwedo2{
+    padding: 0 0 60px 0;
+    background: $theme-black-bg;
+    h2{
+        color: #fff;
+    }
+    .what-we-do-two-wrapper{
+        margin-bottom: 35px;
+    .s-what-do-2-img{
+        width: 130px;
+    }
+  .s-what-do-2-text{
+      margin-left: 30px;
+      padding: 0 15px;
+      p{
+          color: #fff;
+      }
+  }
+}
+}
+#whatwedo2{
+    .singel-gasa-content {
+        position: relative;
+    }
+.singel-gas-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 0;
+}
+
+.singel-ges-version-2{
+    background: #fff;
+    border-radius: 92px 20px 92px 20px;
+    margin: 20px 10px;
+    @include breakpoint(small){
+        border-radius: 139px 20px 92px 20px;}
+    @include breakpoint(medium){
+        border-radius: 92px 20px 92px 20px;}
+    .singel-gasa-content{
+        margin: 0;
+         @include breakpoint(xsmall){
+            margin: 4px;
+            padding-bottom: 38px;
+         }
+         @include breakpoint(small){
+           
+            margin: 4px;
+            padding-bottom: 38px;
+         }
+    }
+    .singel-gas-pakage{
+        left: 0;
+        @include breakpoint(xlarge){
+            left: 2px;
+            width: 149px;
+            height: 83px;
+            border-radius: 115px 0 100px;
+        }
+    }
+}
+
+}

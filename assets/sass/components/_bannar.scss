@@ -1,0 +1,95 @@
+.b-backgroud-picture{
+  background-image: url(/assets/images/bannar02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include breakpoint(large){
+ 
+    background-image: url(/assets/images/bannar01.jpg);
+    
+  }
+
+  
+
+}
+
+.b-backgroud-picture{
+  height: 730px;
+  @include breakpoint(hhxsmall){
+    height: 930px;
+  }
+  @include breakpoint(small){
+    height: 930px;
+  }
+  @include breakpoint(large){
+    height: 730px;
+  }
+
+}
+
+.bannar-wrapper{
+  padding: 0 0 0 40px;
+  @include breakpoint(hhxsmall){
+    padding: 0 ;
+    padding-top: 30px;
+  }
+  @include breakpoint(small){
+    padding: 0 ;
+    padding-top: 30px;
+  }
+  @include breakpoint(large){
+    padding: 20px ;
+    padding-top: 30px;
+  }
+  @include breakpoint(xlarge){
+    padding: 0 0 0 40px;
+  }
+
+h4{
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+  h1{
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-size: 50px;
+    @include breakpoint(hhxsmall){
+      padding: 2px 0;
+      margin-bottom: 10px;
+      line-height: 1.2;
+      font-size: 34px;
+      padding-top: 30px;
+    }
+    @include breakpoint(large){
+      padding: 10px 0;
+      padding-top: 30px;
+    }
+    span{
+      font-weight: 900;
+      color: #6fa77f;
+    }
+  }
+  .bannar-offer{
+    ul{
+      li{
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+       span{
+         margin-right: 5px;
+       i{
+        color: #6fa77f;
+        font-size: 16px;
+       }
+    
+       }
+      }
+    }
+  }
+  a.bannar_btn{
+    margin: 20px 0;
+    font-weight: 600;
+  }
+}
