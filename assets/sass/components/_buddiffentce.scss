@@ -1,0 +1,185 @@
+
+.difference-area{
+    background: #000;
+    padding: 60px 0;
+    overflow: hidden;
+    h2{
+        color: #fff;
+    }
+}
+.singel-bud-differences{
+    padding: 30px 0;
+    margin: 0 15px;
+    .singel-but-heading {
+        h4{
+            color: #fff;
+         font-size: 16px;
+         padding-bottom: 10px;
+            border-bottom: 1px solid #fff;
+            margin: 10px  20px;
+            span{
+                color:#000;
+                background-color: #fff;
+                padding: 0 8px;
+            }
+        }
+    }
+}
+
+.singel-bud-image{
+    background: #fff;
+}
+.signel-bd-content{
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 0 0 0 12px;
+
+    h3{
+        font-size: 17.5px;
+        padding: 20px 5px 0 0;
+    }
+    h6{
+        margin: 3px 0;
+        span{
+            font-weight: 400;
+        }
+    }
+    p{
+        font-size: 12px ;
+        padding : 5px 0 10px 0;
+    }
+}
+
+.singel-bud-image{
+    position: relative;
+    .singel-but-img-status {
+        position: absolute;
+        padding: 5px;
+        border-radius: 6px;
+        background: #000;
+        font-size: 12px;
+        line-height: 1;
+        color: #fff;
+        font-weight: bold;
+        bottom: -8px;
+        text-transform: uppercase;
+    }
+    .bud-left-status{
+        left: 20%;
+    }
+
+    .bud-right-status{
+        right: 20%;
+    }
+}
+$work-sans: 'Work Sans', sans-serif;
+
+.arrows {
+  font-family: $work-sans;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.item {
+  height: 10rem;
+  background-color: rgba(1, 1, 1, 0.1);
+
+  margin: 1rem;
+  text-align: center;
+  
+  span {
+    display: block;
+    margin-top: 4rem;
+    font-family: $work-sans;
+  }
+}
+
+.coom-slcik {
+    font-family: "Work Sans", sans-serif;
+    color: #000;
+    line-height: 43px;
+    position: absolute;
+    font-size: 20px;
+    background: #fff;
+    top: 50%;
+    width: 50px;
+    z-index: 1;
+    height: 50px;
+    text-align: center;
+    margin-top: -25px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    &:hover{
+        border-color: #fff;
+       color: #fff;
+        background: #000;
+    }
+}
+.slick-prev{
+    left: -10%;
+    @include breakpoint(xsmall){
+        left: 0%;
+    }
+    @include breakpoint(medium){
+        left: -5%;
+    }
+    @include breakpoint(xlarge){
+        left: -10%;
+    }
+
+    
+} 
+.slick-next {
+    right: -10%;
+    @include breakpoint(xsmall){
+        right: 0%;
+    }
+    @include breakpoint(medium){
+        right: -5%;
+    }
+    @include breakpoint(xlarge){
+        right: -10%;
+    }
+
+    
+}
+
+
+.slick-slider{
+    transition: 0.3s;
+
+}
+
+.difference-area{
+    &:hover{
+        .slick-prev{
+            box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.25);
+            left: -6%;
+            @include breakpoint(xsmall){
+                left: -0%;
+            }
+            @include breakpoint(medium){
+                left: -2%;
+            }
+            @include breakpoint(xlarge){
+                left: -6%;
+            }
+         
+        } 
+        .slick-next {
+            box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.25);
+            right: -6%;
+            @include breakpoint(xsmall){
+                right: -0%;
+            }
+            @include breakpoint(medium){
+                right: -2%;
+            }
+            @include breakpoint(xlarge){
+                right: -6%;
+            }
+    
+        }
+        
+    }
+}

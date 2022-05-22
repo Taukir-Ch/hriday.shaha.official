@@ -1,11 +1,11 @@
 .b-backgroud-picture{
-  background-image: url(/assets/images/bannar02.jpg);
+  background-image: url(./assets/images/bannar02.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   @include breakpoint(large){
  
-    background-image: url(/assets/images/bannar01.jpg);
+    background-image: url(./assets/images/bannar01.jpg);
     
   }
 
@@ -71,25 +71,26 @@ h4{
       color: #6fa77f;
     }
   }
-  .bannar-offer{
-    ul{
-      li{
-        display: block;
-        font-size: 18px;
-        font-weight: 600;
-       span{
-         margin-right: 5px;
-       i{
-        color: #6fa77f;
-        font-size: 16px;
-       }
-    
-       }
-      }
-    }
-  }
+
   a.bannar_btn{
     margin: 20px 0;
     font-weight: 600;
+  }
+}
+.bannar-offer{
+  ul{
+    li{
+      display: block;
+      font-size: 18px;
+      font-weight: 600;
+     span{
+       margin-right: 5px;
+     i{
+      color: #6fa77f;
+      font-size: 16px;
+     }
+  
+     }
+    }
   }
 }

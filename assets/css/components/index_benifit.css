@@ -1,0 +1,20 @@
+.bennifites-content {
+  margin: 40px;
+}
+.bennifites-content span {
+  color: aqua;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.bennifites-content p {
+  margin: 10px 0;
+}
+
+.results_wrapper {
+  background-color: #f7fff7;
+  margin: 30px 0;
+}
+.results_wrapper p {
+  margin: 10px;
+}
+/*# sourceMappingURL=index_benifit.css.map */
